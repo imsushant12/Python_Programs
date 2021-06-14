@@ -16,9 +16,9 @@ else:
     age_to_hit_100 = 100 - (2021 - year_or_age)
     print("You will turn 100 at ", 2021 + age_to_hit_100)
 
-choice = input("Press YES to find age at desired year else type NO : ")
+choice = input("Press YES to find age at desired year else type NO : ").lower()
 
-if(choice.upper() == "YES"):
+if(choice == "yes"):
     year = int(input("Enter desired year : "))
     if (year_or_age < 100):
         current_age = 2021 - year_or_age
