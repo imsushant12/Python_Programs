@@ -1,4 +1,5 @@
-# Time Complexity: O(n!)
+# USING BACKTRACKING
+# Time Complexity: O(n * n!)
 
 def print_permutations(input_string, output_string):
     # base case
