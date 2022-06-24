@@ -14,6 +14,6 @@ def find_power(x, y):
 
 if __name__ == "__main__":
     x = 2
-    y = 5
+    y = 10
 
     print(find_power(x, y))
