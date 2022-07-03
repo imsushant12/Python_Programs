@@ -9,7 +9,7 @@ def mergeSort(a):
         mergeSort(R)
 
         i = j = k = 0
-
+        # merging both the sorted arrays.
         while i < len(L) and j < len(R):
             if L[i] < R[j]:
                 a[k] = L[i]
@@ -36,7 +36,7 @@ def printList(a):
 
 
 a = [12, 11, 13, 5, 6, 7]
-print("Sorted aay is: ")
+print("Sorted array is: ")
 mergeSort(a)
 printList(a)
 
